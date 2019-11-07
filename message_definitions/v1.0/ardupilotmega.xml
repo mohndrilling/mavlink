@@ -241,6 +241,16 @@
         <param index="6">Reserved, send 0</param>
         <param index="7">Reserved, send 0</param>
       </entry>
+      <entry value="42652" name="MAV_CMD_NETTR_RETURN_TO_LAUNCH">
+        <description>Return to launch location of net tracking</description>
+        <param index="1">Empty</param>
+        <param index="2">Empty</param>
+        <param index="3">Empty</param>
+        <param index="4">Empty</param>
+        <param index="5">Empty</param>
+        <param index="6">Empty</param>
+        <param index="7">Empty</param>
+      </entry>
     </enum>
     <!-- AP_Limits Enums -->
     <enum name="LIMITS_STATE">
