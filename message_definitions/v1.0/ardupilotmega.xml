@@ -1737,6 +1737,7 @@
     <message id="11015" name="NETTRACKING_STATE">
       <description>State of the net tracking state machine.</description>
       <field type="uint8_t" name="state" units="">Net Tracking State.</field>
+      <field type="float" name="loop_progress" units="percent">Progress of full 360 degrees scan.</field>
     </message>
     <!-- Angle of Attack and Side Slip Angle message -->
     <message id="11020" name="AOA_SSA">
