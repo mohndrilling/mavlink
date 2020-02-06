@@ -1613,6 +1613,15 @@
       <field type="uint8_t" name="state" units="">Net Tracking State.</field>
       <field type="float" name="loop_progress" units="percent">Progress of full 360 degrees scan.</field>
     </message>
+    <!-- nettracking marker message-->
+    <message id="11016" name="NETTRACKING_MARKER">
+      <description>Holding information about optical marker detected by aruco_detection node.</description>
+      <field name="time_usec" type="uint64_t" units="us">Timestamp (synced to UNIX time or since system boot).</field>
+      <field name="time_delta_usec" type="uint64_t" units="us">Time since the lastly reported measurement.</field>
+      <field type="uint8_t" name="marker_visible" units="">Boolean indicating whether any marker was detected (1 or 0)</field>
+      <field type="uint8_t" name="terminate" units="">Boolean indicating whether termination marker was detected (1 or 0)</field>
+      <field type="float" name="horizontal_pos" units="">Horizontal position of the upper detected marker (-1...+1)</field>
+    </message>
     <!-- Angle of Attack and Side Slip Angle message -->
     <message id="11020" name="AOA_SSA">
       <description>Angle of Attack and Side Slip Angle.</description>
