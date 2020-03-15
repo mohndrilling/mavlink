@@ -998,6 +998,7 @@
       <entry value="20" name="SUB_MODE_MD_STABILIZE"/>
       <entry value="21" name="SUB_MODE_MD_ALT_HOLD"/>
       <entry value="22" name="SUB_MODE_MD_NET_TRACKING"/>
+      <entry value="23" name="SUB_MODE_MD_NET_CLEANING"/>
     </enum>
     <enum name="ROVER_MODE">
       <description>A mapping of rover flight modes for custom_mode field of heartbeat.</description>
