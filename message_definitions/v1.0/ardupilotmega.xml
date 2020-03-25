@@ -1623,6 +1623,12 @@
       <field type="uint8_t" name="terminate" units="">Boolean indicating whether termination marker was detected (1 or 0)</field>
       <field type="float" name="horizontal_pos" units="">Horizontal position of the upper detected marker (-1...+1)</field>
     </message>
+    <!-- State of the net cleaning state machine. Definition in state enumeration AP_NetCleaning/AP_NetCleaning.h-->
+    <message id="11017" name="NETCLEANING_STATE">
+      <description>State of the net cleaning state machine.</description>
+      <field type="uint8_t" name="state" units="">Net Cleaning State.</field>
+      <field type="uint8_t" name="brush_motors_active">Whether the brush motors need to run during this state.</field>
+    </message>
     <!-- Angle of Attack and Side Slip Angle message -->
     <message id="11020" name="AOA_SSA">
       <description>Angle of Attack and Side Slip Angle.</description>
